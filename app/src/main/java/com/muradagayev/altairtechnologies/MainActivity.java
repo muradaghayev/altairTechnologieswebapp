@@ -25,7 +25,7 @@ public class MainActivity extends Activity {
         WebViewClientImpl webViewClient = new WebViewClientImpl(this);
         webView.setWebViewClient(webViewClient);
 
-        webView.loadUrl("");
+        webView.loadUrl("http://www.altair.az");
 
     }
 
